@@ -1,0 +1,86 @@
+/* h1 {
+    font-size: 500%
+ }
+
+ .header {
+    text-align: center;
+    font-size: 175%;
+    color: #fff;
+    text-shadow: 0 2px 2px #000;
+  } */
+  
+  /* #title {
+    background:  url(https://images.unsplash.com/photo-1554876194-024e06bbc3cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  } */
+  
+  /* #title h1 {
+   transform: translateZ(.25px) scale(.75);
+   transform-origin: 50% 100%;
+  
+  } */
+
+/*   
+h1 {
+  display: block;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 8em;
+  text-align: center;
+  color: #000;
+}
+
+.box h1 {
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(left, #A3F7BF 0%, #29A19C 33%, #435055 66%, #27323A 100%);
+  background-size: 700px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  background-clip: text;
+  -webkit-animation: gradient-move 1s linear infinite;
+  animation: gradient-move 1.5s linear infinite;
+}
+
+.box h1:hover {
+  -webkit-animation: gradient-move 0.3s linear infinite;
+}
+
+@-webkit-keyframes gradient-move {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 700px 0; } 
+} */
+
+.filltext
+{
+    position: absolute;
+    margin-top: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+    background-image: url(https://images.pexels.com/photos/1682706/pexels-photo-1682706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: animate 3s ease-in-out alternate infinite;
+}
+@keyframes animate
+{
+    from
+    {
+        background-position: center 40%;
+    }
+    to
+    {
+        background-position: center 60%;
+    }
+}
+
+  
