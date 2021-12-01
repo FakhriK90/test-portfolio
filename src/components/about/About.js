@@ -15,16 +15,17 @@ const About = () => {
         </div>
         <div className="mine__info">
           <div className="title">
-            <h1>KAHOUACH FAKHRI ABOUSAOUD</h1>
+            <h1>Hi! I'm</h1>
+            <h1>Kahouach Fakhri Abousaoud</h1>
           </div>
           <div className="description">
             <h3>About Me</h3>
             <ul>
               <li>Full Stack JS developper - MERN</li>
-              <li>Html, Css, Jaavascript</li>
-              <li>React</li>
-              <li>NodeJs, Express, NoSQL</li>
               <li>Senior technician: Geophysicist</li>
+              <li>First aid worker</li>
+              <li>Amateur filmmaker</li>
+              <li>Civil society activist</li>
             </ul>
           </div>
         </div>

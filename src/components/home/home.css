@@ -65,7 +65,7 @@ h1 {
     transform: translate(-50%,-50%);
     font-size: 50px;
     color: white;
-    background-image: url(https://images.pexels.com/photos/1682706/pexels-photo-1682706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -83,4 +83,31 @@ h1 {
     }
 }
 
-  
+@media screen and (max-width: 900px) and (min-width: 200px){
+  .filltext
+{
+    position: absolute;
+    margin-top: 60px;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: animate 3s ease-in-out alternate infinite;
+}
+@keyframes animate
+{
+    from
+    {
+        background-position: center 40%;
+    }
+    to
+    {
+        background-position: center 60%;
+    }
+}
+}

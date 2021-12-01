@@ -3,7 +3,7 @@ import './header.css'
 
 const ResponsiveHeader = () => {
     return (
-        <div>
+        <div className="navbar">
             <div className="container teal borderYtoX">
   <a href="#title">HOME</a>
   <a href="#profile">ABOUT</a>

@@ -1,10 +1,11 @@
-import './App.css';
 import About from './components/about/About';
 import Home from './components/home/Home';
 import Portfolio from './components/portfolio/Portfolio';
 import ResponsiveHeader from './components/responsiveHerder/ResponsiveHeader';
-import Skills from './components/skills/Skills'
 import Contact from './components/contact/Contact'
+import MySkills from './components/skills/MySkills';
+import './App.css';
+
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Home/>
         <About/>
         <Portfolio/>
-        <Skills/>
+        <MySkills/>
         <Contact/>
       </main>
     </div>
